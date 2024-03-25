@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#673AB7"
+    tools:context=".MainMenu">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="374dp"
+        android:layout_height="127dp"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:text="Catch the Kenny"
+        android:textColor="#FFFFFF"
+        android:textSize="48sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/startBtn"
+        android:layout_width="296dp"
+        android:layout_height="68dp"
+        android:layout_marginTop="130dp"
+        android:onClick="start"
+        android:text="Start"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <Button
+        android:id="@+id/selectedLanEng"
+        android:layout_width="296dp"
+        android:layout_height="68dp"
+        android:layout_marginTop="130dp"
+        android:onClick="selectEng"
+        android:text="English"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <Button
+        android:id="@+id/difficulty"
+        android:layout_width="296dp"
+        android:layout_height="68dp"
+        android:layout_marginTop="130dp"
+        android:onClick="setDifficulty"
+        android:text="Difficulty"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <Button
+        android:id="@+id/easyMode"
+        android:layout_width="296dp"
+        android:layout_height="68dp"
+        android:layout_marginTop="130dp"
+        android:onClick="changetoEasy"
+        android:text="Easy"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <Button
+        android:id="@+id/optionsBtn"
+        android:layout_width="296dp"
+        android:layout_height="68dp"
+        android:layout_marginTop="35dp"
+        android:onClick="options"
+        android:text="Options"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/startBtn" />
+
+    <Button
+        android:id="@+id/languageBtn"
+        android:layout_width="296dp"
+        android:layout_height="68dp"
+        android:layout_marginTop="35dp"
+        android:onClick="selectLan"
+        android:text="Language"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/startBtn" />
+
+    <Button
+        android:id="@+id/selectedLanAze"
+        android:layout_width="296dp"
+        android:layout_height="68dp"
+        android:layout_marginTop="35dp"
+        android:onClick="selectAze"
+        android:text="Azerbaijani"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/startBtn" />
+
+    <Button
+        android:id="@+id/hardMode"
+        android:layout_width="296dp"
+        android:layout_height="68dp"
+        android:layout_marginTop="35dp"
+        android:onClick="changetoHard"
+        android:text="Hard"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/startBtn" />
+
+    <EditText
+        android:id="@+id/nameText"
+        android:layout_width="296dp"
+        android:layout_height="68dp"
+        android:layout_marginTop="35dp"
+        android:ems="10"
+        android:hint="Enter Your Name"
+        android:inputType="text"
+        android:textColor="#FFFFFF"
+        android:textColorHint="@color/white"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+</androidx.constraintlayout.widget.ConstraintLayout>

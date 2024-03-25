@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#673AB7"
+    tools:context=".MainMenu2">
+
+    <Button
+        android:id="@+id/difficulty2"
+        android:layout_width="296dp"
+        android:layout_height="68dp"
+        android:layout_marginTop="130dp"
+        android:onClick="setDifficulty2"
+        android:text="Çətinlik"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <Button
+        android:id="@+id/easyMode2"
+        android:layout_width="296dp"
+        android:layout_height="68dp"
+        android:layout_marginTop="130dp"
+        android:onClick="changetoEasy2"
+        android:text="Asan"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <EditText
+        android:id="@+id/nameText2"
+        android:layout_width="296dp"
+        android:layout_height="68dp"
+        android:layout_marginTop="35dp"
+        android:ems="10"
+        android:hint="Adınızı Daxil Edin"
+        android:inputType="text"
+        android:textColor="#FFFFFF"
+        android:textColorHint="@color/white"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <Button
+        android:id="@+id/startBtn2"
+        android:layout_width="296dp"
+        android:layout_height="68dp"
+        android:layout_marginTop="130dp"
+        android:onClick="start2"
+        android:text="Başla"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <Button
+        android:id="@+id/selectedLanEng2"
+        android:layout_width="296dp"
+        android:layout_height="68dp"
+        android:layout_marginTop="130dp"
+        android:onClick="selectEng2"
+        android:text="Ingiliscə"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <Button
+        android:id="@+id/selectedLanAze2"
+        android:layout_width="296dp"
+        android:layout_height="68dp"
+        android:layout_marginTop="35dp"
+        android:onClick="selectAze2"
+        android:text="Azərbaycanca"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/startBtn2" />
+
+    <Button
+        android:id="@+id/optionsBtn2"
+        android:layout_width="296dp"
+        android:layout_height="68dp"
+        android:layout_marginTop="35dp"
+        android:onClick="options2"
+        android:text="Tənzimləmələr"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/startBtn2" />
+
+    <Button
+        android:id="@+id/languageBtn2"
+        android:layout_width="296dp"
+        android:layout_height="68dp"
+        android:layout_marginTop="35dp"
+        android:onClick="selectLan2"
+        android:text="Dil"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/startBtn2" />
+
+    <Button
+        android:id="@+id/hardMode2"
+        android:layout_width="296dp"
+        android:layout_height="68dp"
+        android:layout_marginTop="35dp"
+        android:onClick="changetoHard2"
+        android:text="Çətin"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/startBtn2" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="374dp"
+        android:layout_height="127dp"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:text="Catch the Kenny"
+        android:textColor="#FFFFFF"
+        android:textSize="48sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
